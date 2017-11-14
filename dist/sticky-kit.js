@@ -198,7 +198,7 @@
               }
             }
             elm.trigger("sticky_kit:stick");
-          }
+          } else elm.trigger("sticky_kit:unstick");
         }
         if (fixed && enable_bottoming) {
           if (will_bottom == null) {
